@@ -13,6 +13,9 @@ const Navigation = () => {
         <Link as={RouterLink} to="/about" ml={4}>
           About
         </Link>
+        <Link as={RouterLink} to="/contact" ml={4}>
+          Contact
+        </Link>
       </Flex>
     </Box>
   );
