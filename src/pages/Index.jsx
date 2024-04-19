@@ -4,15 +4,6 @@ import { Box, VStack, Heading, Text, Container, Divider, Image, Link } from "@ch
 const Index = () => {
   return (
     <Box>
-      {/* Header */}
-      <Box bg="gray.100" py={8}>
-        <Container maxW="container.lg">
-          <Heading as="h1" size="2xl" textAlign="center">
-            Jared Ingersoll
-          </Heading>
-        </Container>
-      </Box>
-
       {/* About Me */}
       <Container maxW="container.lg" py={8}>
         <VStack spacing={6} align="start">
